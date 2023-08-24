@@ -55,7 +55,7 @@ const Dashboard = () => {
       {!tableData? 'loading...':
       <>
         <div className='parent'>
-          <input className='table-search' onChange={(e) => {setSearch(e.target.value); setPage(1);}} name='search' placeholder='search...' value={search} type="text" />
+          {/* <input className='table-search' onChange={(e) => {setSearch(e.target.value); setPage(1);}} name='search' placeholder='search...' value={search} type="text" /> */}
           <Dropdown month={selectedMonth} handleMonthChange={handleMonthChange1}/>
         </div>
 
